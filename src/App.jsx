@@ -1,12 +1,12 @@
 import { Routes, Route } from 'react-router-dom'
-import { Home, SignedUp } from './components'
+import { Home, Form } from './components'
 
 export const App = () => {
    return (
       <section id="app">
          <Routes>
             <Route path="/" element={<Home />}></Route>
-            <Route path="/signedUp" element={<SignedUp />}></Route>
+            <Route path="/form" element={<Form />}></Route>
          </Routes>
       </section>
    )

@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 
-export const SignedUp = () => {
+export const Form = () => {
    return (
       <section id="signedUp">
          <div className="signedUp-container">

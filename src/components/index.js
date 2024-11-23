@@ -1,6 +1,6 @@
-import { Home } from './Home';
-import { SignedUp } from './SignedUp';
+import { Home } from './Home/Home';
+import { Form } from './Form/Form';
 
 export {
-   Home, SignedUp
+   Home, Form
 }

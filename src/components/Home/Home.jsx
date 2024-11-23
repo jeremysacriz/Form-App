@@ -38,27 +38,27 @@ export const Home = () => {
             <form onSubmit={handleSubmit(handleSave)} className="form-signup" noValidate>
                <div className="input-container first-name">
                   <input id="firstName-input" type="text" autoComplete="off" {...register('firstName')} required/>
-                  <label htmlFor="firstName-input" className="placeholder">First Name</label>
+                  <label htmlFor="firstName-input" className="placeholder">First Name*</label>
                   <h1 className="error-msg">{errors.firstName?.message}</h1>
                </div>
                <div className="input-container last-name">
                   <input id="lastName-input" type="text" autoComplete="off" {...register('lastName')} required />
-                  <label htmlFor="lastName-input" className="placeholder">Last Name</label>
+                  <label htmlFor="lastName-input" className="placeholder">Last Name*</label>
                   <h1 className="error-msg">{errors.lastName?.message}</h1>
                </div>
                <div className="input-container email">
                   <input id="email-input" type="text" autoComplete="off" {...register('email')} required />
-                  <label htmlFor="email-input" className="placeholder">Email</label>
+                  <label htmlFor="email-input" className="placeholder">Email*</label>
                   <h1 className="error-msg">{errors.email?.message}</h1>
                </div>
                <div className="input-container password">
                   <input id="password-input" type="password" autoComplete="off" {...register('password')} required />
-                  <label htmlFor="password-input" className="placeholder">Password</label>
+                  <label htmlFor="password-input" className="placeholder">Password*</label>
                   <h1 className="error-msg">{errors.password?.message}</h1>
                </div>
                <div className="input-container confirm-password">
                   <input id="confirm-input" type="password" autoComplete="off" {...register('confirm')} required />
-                  <label htmlFor="confirm-input" className="placeholder">Confirm Password</label>
+                  <label htmlFor="confirm-input" className="placeholder">Confirm Password*</label>
                   <h1 className="error-msg">{errors.confirm?.message}</h1>
                </div>
 
